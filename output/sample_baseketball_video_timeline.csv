@@ -1,30 +1,36 @@
 timestamp,event_type,outcome,description,confidence,location
-0.1,2pt_shot,made,"LeBron James (#23) takes a contested fadeaway jumper from just inside the free-throw line and scores, tying the game.",1.0,Right elbow
-8.0,steal,,"LeBron James recovers the loose ball after a deflection, initiating a fast break for the Lakers.",1.0,Near the top of the key
-10.4,2pt_shot,made,"On a fast break, LeBron James drives to the basket and finishes with a powerful one-handed dunk.",1.0,At the rim
-15.8,2pt_shot,made,"With the shot clock at one second, LeBron James hits a difficult, contested, long fadeaway jumper from the top of the key. His foot was on the 3-point line, making it a 2-point shot.",1.0,Top of the key
-25.1,block,,"LeBron James (#6) executes a chase-down block, pinning a Houston Rockets player's layup attempt against the backboard.",1.0,In the paint
-30.5,2pt_shot,made,LeBron James (Lakers) drives to the basket on a fast break and completes a powerful one-handed dunk.,1.0,In the paint
-34.6,block,,"LeBron James (Lakers) performs a chase-down block on a fast-break layup attempt by an Oklahoma City Thunder player, swatting the ball against the backboard.",1.0,In the paint
-39.5,steal,,"An unidentified Lakers player loses control of the ball near the three-point line, and Tyler Herro (Heat) recovers it to start a fast break.",0.9,Near the top of the key
-43.1,block,,"On a fast break, LeBron James (Lakers) executes a signature chase-down block, pinning Tyler Herro's (Heat) dunk attempt against the backboard.",1.0,At the rim
-49.3,steal,,Dennis Schröder (Lakers) comes from behind and pokes the ball loose from Terry Rozier (Hornets) near midcourt.,1.0,Midcourt
-50.1,2pt_shot,,"Following the steal, Dennis Schröder and LeBron James start a 2-on-1 fast break for the Lakers.",1.0,Full court
-52.5,assist,,"On the fast break, Dennis Schröder (Lakers) throws a lob pass off the backboard for LeBron James.",1.0,In the paint
-53.4,2pt_shot,made,LeBron James (Lakers) catches the alley-oop pass from the backboard and finishes the play with a two-handed reverse dunk.,1.0,At the rim
-63.8,2pt_shot,missed,A Washington Wizards player takes a three-point shot from the right wing which misses off the rim.,1.0,"Right wing, three-point line"
-64.8,rebound,,Austin Reaves of the Lakers secures the offensive rebound after the missed three-point shot by the Wizards.,1.0,Top of the key
-65.6,assist,,Austin Reaves passes the ball to LeBron James who is cutting towards the basket.,1.0,Top of the key
-66.5,2pt_shot,made,LeBron James drives to the basket and makes a contested layup while being fouled for an and-one opportunity.,1.0,"In the paint, right side of the basket"
-74.2,assist,,"Austin Reaves drives into the paint, drawing the defense, and delivers a pass to LeBron James cutting along the baseline.",1.0,Left side of the paint
-75.1,2pt_shot,made,LeBron James receives the pass from Austin Reaves and finishes with a powerful two-handed dunk.,1.0,Under the basket
-84.8,steal,,"Terance Mann of the LA Clippers drives baseline, gets caught in the air, and throws a bad pass that is intercepted by the Lakers, initiating a fast break.",0.9,Right baseline
-85.5,2pt_shot,,"Following the turnover by the Clippers, the Lakers initiate a fast break up the court.",1.0,Full court
-86.4,assist,,"On the fast break, Malik Monk (#5) throws a pass ahead to a streaking LeBron James.",1.0,Center court
-87.2,2pt_shot,made,LeBron James catches the pass on the fast break and finishes with a two-handed dunk.,1.0,In the paint
-96.5,2pt_shot,made,LeBron James drives from the top of the key to the right side of the basket and scores a layup in traffic.,1.0,In the paint
-104.6,2pt_shot,made,LeBron James drives from the left wing into the paint and makes a contested scoop layup while being fouled. The basket is counted for an and-one opportunity.,1.0,In the paint
-111.8,steal,,"A Minnesota Timberwolves player (Andrew Wiggins, #22) jumps out of bounds to save the ball but throws an errant pass directly to an opponent.",1.0,Right baseline
-112.5,2pt_shot,made,"Immediately after the steal, LeBron James catches the ball and shoots a quick three-pointer from the right wing.",1.0,"Right wing, beyond the arc"
-119.5,2pt_shot,made,"LeBron James, with the ball on the right wing, drives past his defender along the baseline and goes up for a reverse layup. The clip cuts as the ball goes in.",0.9,"In the paint, right baseline"
-128.6,2pt_shot,made,Lakers player #23 (LeBron James) pulls up for a very deep three-point shot from the left wing and makes it over the defender.,1.0,"Left wing, beyond the three-point arc"
+1.5,2pt_shot,made,"LeBron James, wearing #23 for the Lakers, drives to the right baseline and hits a contested fadeaway jumper over a Charlotte Hornets defender.",1.0,Right baseline
+7.2,steal,,"Following the deflection, the Denver Nuggets turn the ball over. LeBron James recovers the loose ball to start a fast break.",1.0,Top of the key
+7.5,2pt_shot,,"After recovering the loose ball, LeBron James initiates a solo fast break, dribbling the length of the court.",1.0,Full court
+10.1,2pt_shot,made,LeBron James finishes the fast break with a powerful one-handed dunk.,1.0,In the paint
+15.7,2pt_shot,made,"With the shot clock expiring, LeBron James hits a difficult, contested, step-back 3-pointer from the right wing over a Hornets defender.",1.0,"Right wing, beyond the 3-point arc"
+24.8,2pt_shot,missed,"A Houston Rockets player (Kevin Porter Jr., #3) attempts a layup on a fast break.",1.0,In the paint
+25.1,block,,"LeBron James, wearing #6 for the Lakers, executes a signature chase-down block, pinning the Rockets' layup attempt against the backboard.",1.0,At the backboard
+30.1,2pt_shot,made,"LeBron James, wearing a yellow Lakers jersey with number 23, performs a powerful one-handed dunk over Kevin Porter Jr. of the Houston Rockets.",1.0,In the paint
+34.2,assist,,"A Lakers player passes the ball from the top of the key to a cutting LeBron James, leading directly to his dunk.",0.9,Top of the key
+34.5,2pt_shot,made,"LeBron James, wearing a yellow Lakers jersey with number 23, receives a pass while cutting to the basket and finishes with a two-handed dunk against the Oklahoma City Thunder.",1.0,In the paint
+40.5,2pt_shot,,"Tyler Herro of the Miami Heat leads a fast break after a turnover, dribbling the length of the court for a dunk attempt.",1.0,Full court
+42.6,block,,"LeBron James performs a signature chase-down block, swatting Tyler Herro's dunk attempt from behind against the backboard.",1.0,At the rim
+49.4,steal,,"Lakers guard Dennis Schröder (#17) pokes the ball loose from behind from Hornets guard Terry Rozier (#3) near midcourt, initiating a turnover.",1.0,Near half-court
+50.1,2pt_shot,,"Following the steal, Dennis Schröder leads a 2-on-1 fast break with LeBron James.",1.0,Transition from half-court
+52.8,assist,,"On the fast break, Dennis Schröder throws an alley-oop pass off the backboard to a trailing LeBron James.",1.0,In the paint
+53.4,2pt_shot,made,"LeBron James, wearing a yellow Lakers jersey with number 6, catches the alley-oop pass off the backboard and finishes with a powerful two-handed reverse dunk.",1.0,At the rim
+60.0,2pt_shot,made,"In a replay from a previous play, LeBron James (#6) completes a powerful two-handed dunk.",1.0,In the paint
+63.5,2pt_shot,missed,"A Washington Wizards player (#24, Corey Kispert) attempts a 3-point shot from the left wing which misses.",1.0,"Left wing, beyond the 3-point line"
+64.5,rebound,,Austin Reaves (#15) secures the defensive rebound after the missed 3-point shot.,1.0,Right side of the paint
+65.0,shot,,Basketball event detected,0.7,Court area
+65.1,assist,,Austin Reaves (#15) makes a quick outlet pass up the court to LeBron James (#23) who is cutting to the basket.,1.0,Top of the key
+66.4,2pt_shot,made,"LeBron James (#23) drives to the basket and makes a contested layup while being fouled, resulting in an ""and-one"" opportunity.",1.0,In the paint
+73.8,assist,,Austin Reaves (#15) drives into the paint and delivers a bounce pass to a cutting LeBron James (#6).,1.0,Top of the key
+74.9,2pt_shot,made,LeBron James (#6) receives the pass and explodes for a powerful one-handed dunk over Kevin Porter Jr. (#3).,1.0,In the paint
+84.0,steal,,"Malik Monk (#11) intercepts a pass intended for Terance Mann (#14) of the Clippers, initiating a fast break.",0.9,Near the half-court line
+84.5,2pt_shot,,"The Lakers start a 2-on-1 fast break after the steal, with Malik Monk leading the charge and LeBron James running alongside.",1.0,Full court
+86.2,assist,,"On the fast break, Malik Monk (#11) draws the defender and delivers a bounce pass to LeBron James (#23) for an easy score.",1.0,Right side of the paint
+87.0,2pt_shot,made,LeBron James (#23) finishes the fast break with an uncontested two-handed dunk.,1.0,In the paint
+90.0,2pt_shot,made,"LeBron James drives from the top of the key, splitting two defenders, and finishes with a right-handed layup in traffic.",1.0,In the paint
+102.8,2pt_shot,made,"LeBron James drives from the left wing into the lane and makes a contested, off-balance layup while drawing contact.",1.0,In the paint
+109.8,steal,,"A Minnesota Timberwolves player, falling out of bounds while trying to save a bad pass, throws the ball back in play directly to LeBron James of the Lakers.",0.9,Left sideline
+111.5,2pt_shot,made,"Immediately after catching the turnover, LeBron James pulls up from well beyond the arc and sinks a three-pointer.",1.0,"Left wing, deep 3-point range"
+118.8,2pt_shot,,"With the shot clock running down, LeBron James attempts a fadeaway jump shot from the right elbow area. The video cuts before the result of the shot is visible.",1.0,Right elbow
+121.5,2pt_shot,[made],"[LeBron James (#23, Lakers) makes a difficult, contested running hook shot with his left hand while driving into the lane.]",0.7,[Right side of the painted area]
+128.9,2pt_shot,[made],"[LeBron James (#23, Lakers) pulls up for and makes a very deep 3-point shot from the left wing over a defender.]",0.7,"[Deep left wing, several feet behind the 3-point line]"
