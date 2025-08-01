@@ -1,0 +1,231 @@
+{
+  "video_info": {
+    "duration": 178.283333,
+    "fps": 60.0,
+    "width": 1280,
+    "height": 720,
+    "filename": "sample_basketball_video_3.mp4"
+  },
+  "processing_summary": {
+    "total_events_detected": 18,
+    "processing_timestamp": "2025-08-02T01:32:44.376254",
+    "event_types_found": [
+      "steal",
+      "3pt_shot",
+      "2pt_shot",
+      "assist"
+    ]
+  },
+  "game_statistics": {
+    "total_2pt_attempts": 10,
+    "total_2pt_made": 6,
+    "total_3pt_attempts": 6,
+    "total_3pt_made": 4,
+    "total_assists": 1,
+    "total_steals": 1,
+    "total_blocks": 0
+  },
+  "shooting_analysis": {
+    "2pt_shooting": {
+      "percentage": 60.0,
+      "made": 6,
+      "attempts": 10
+    },
+    "3pt_shooting": {
+      "percentage": 66.66666666666666,
+      "made": 4,
+      "attempts": 6
+    },
+    "overall_fg_percentage": 62.5
+  },
+  "defensive_stats": {
+    "steals": 1,
+    "blocks": 0,
+    "total_defensive_actions": 1
+  },
+  "playmaking": {
+    "assists": 1
+  },
+  "detailed_events": [
+    {
+      "event_type": "assist",
+      "timestamp": 4.2,
+      "duration": 1.0,
+      "description": "The player in the white #77 jersey drives into the paint and throws a lob pass to his teammate.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "paint",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 4.8,
+      "duration": 1.0,
+      "description": "The player in the white #11 jersey catches an alley-oop pass and dunks the ball.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "paint",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 17.0,
+      "duration": 1.0,
+      "description": "The player in the white #77 jersey drives baseline and scores with a short-range floater in the paint.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "paint",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 27.2,
+      "duration": 1.0,
+      "description": "The player in the white #77 jersey drives into the lane and scores a layup off the backboard.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "paint",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 36.5,
+      "duration": 1.0,
+      "description": "Luka Doncic drives into the paint and makes a layup.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Paint",
+      "segment_id": 1
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 50.5,
+      "duration": 1.0,
+      "description": "Luka Doncic executes a step-back and makes a 3-point shot over Julius Randle.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Top of the key",
+      "segment_id": 1
+    },
+    {
+      "event_type": "steal",
+      "timestamp": 69.2,
+      "duration": 1.0,
+      "description": "A Lakers player pokes the ball away from a dribbling Minnesota Timberwolves player from behind.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "Top of the key",
+      "segment_id": 2
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 77.5,
+      "duration": 1.0,
+      "description": "Player #17 passes to player #77 at the top of the key, leading to an immediate made 3-point shot.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "Pass from the wing to the top of the key",
+      "segment_id": 2
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 95.2,
+      "duration": 1.0,
+      "description": "[A player on the right wing passes to #77 at the top of the key for an immediate 3-point shot.]",
+      "confidence": 0.7,
+      "outcome": "[n/a]",
+      "location": "[top of the key]",
+      "segment_id": 3
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 105.5,
+      "duration": 1.0,
+      "description": "[#77 drives into the paint from the right wing and scores a layup.]",
+      "confidence": 0.7,
+      "outcome": "[made]",
+      "location": "[paint]",
+      "segment_id": 3
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 116.0,
+      "duration": 1.0,
+      "description": "[#30 drives into the paint for a layup attempt that is blocked.]",
+      "confidence": 0.7,
+      "outcome": "[missed]",
+      "location": "[paint]",
+      "segment_id": 3
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 121.5,
+      "duration": 1.0,
+      "description": "Player #28 Rui Hachimura misses a mid-range jump shot.",
+      "confidence": 1.0,
+      "outcome": "missed",
+      "location": "mid-range",
+      "segment_id": 4
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 125.0,
+      "duration": 1.0,
+      "description": "Player #3 Anthony Davis passes to Player #77 for a made 3-point shot.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "paint",
+      "segment_id": 4
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 125.2,
+      "duration": 1.0,
+      "description": "Player #77 makes a deep 3-point shot from the top of the arc.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "top of the arc",
+      "segment_id": 4
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 144.0,
+      "duration": 1.0,
+      "description": "Player #77 makes a contested, step-back mid-range jump shot off the backboard.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "mid-range",
+      "segment_id": 4
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 154.5,
+      "duration": 1.0,
+      "description": "Player #77 makes a step-back 3-point shot from the top of the key.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Top of the key",
+      "segment_id": 5
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 164.8,
+      "duration": 1.0,
+      "description": "Player #77 makes a contested fadeaway mid-range shot from near the right elbow.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Mid-range",
+      "segment_id": 5
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 173.5,
+      "duration": 1.0,
+      "description": "Player #15 makes a catch-and-shoot 3-pointer from the left wing.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Left wing",
+      "segment_id": 5
+    }
+  ]
+}
