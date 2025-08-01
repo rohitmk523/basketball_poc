@@ -1,0 +1,22 @@
+timestamp,event_type,outcome,description,confidence,location
+4.0,assist,,Luka Dončić (#77) drives into the paint and throws a lob pass over the defense to a cutting Jaxson Hayes (#11).,1.0,Inside the paint
+5.0,2pt_shot,made,Jaxson Hayes (#11) receives an alley-oop pass from Luka Dončić and finishes with a two-handed dunk.,1.0,At the rim
+16.0,2pt_shot,made,Luka Dončić (#77) drives into the paint against Jaden McDaniels (#3) and scores with a short turnaround jumper off the backboard.,1.0,Right side of the paint
+26.0,2pt_shot,made,Luka Dončić (#77) drives aggressively from the right wing into the paint and scores a contested layup off the glass.,1.0,In the paint
+37.0,shot attempt,made,Luka Dončić (#77 in white) drives into the paint from the right wing and successfully makes a layup while being defended.,1.0,"In the paint, right side"
+51.0,shot attempt,made,Luka Dončić (#77 in white) executes a step-back move against Julius Randle (#30 in dark blue) and sinks a 3-point jump shot.,1.0,Top of the 3-point arc
+61.0,shot attempt (2-point),made,A replay shows Lakers #77 making a step-back jump shot from just inside the arc.,1.0,Top of the key
+69.0,steal,,"A Lakers player pokes the ball away from the Minnesota ball-handler from behind, causing a turnover.",1.0,Top of the key
+77.0,assist,,"Lakers #17 drives into the lane, draws the defense, and passes out to Lakers #77 on the right wing for a successful shot.",1.0,Pass from the paint to the right wing
+78.0,shot attempt (3-point),made,"After receiving a pass from a teammate, Lakers #77 takes and makes a deep catch-and-shoot 3-pointer.",1.0,Deep right wing
+124.0,assist,,"After securing an offensive rebound, LeBron James (#23) passes the ball out to Luka Doncic (#77) on the left wing.",1.0,Top of the key
+125.0,3pt_shot,made,Luka Doncic (#77) catches the pass from LeBron James and immediately shoots a three-pointer from the left wing.,1.0,"Left wing, beyond the 3-point arc"
+144.0,2pt_shot,made,"Luka Doncic (#77) dribbles against his defender, Julius Randle (#3), and pulls up for a contested fadeaway jumper from the right elbow.",1.0,"Right elbow, inside the 3-point arc"
+152.9,assist,,"Player #15 (Austin Reaves) passes the ball to player #77 (Luka Dončić) at the top of the three-point arc, leading to a made basket.",1.0,Top of the key
+154.5,3pt_shot,made,Player #77 (Luka Dončić) catches the ball and immediately shoots a three-pointer with a defender closing in.,1.0,Top of the three-point arc
+165.5,2pt_shot,made,"Player #77 (Luka Dončić) drives towards the paint, performs a spin move, and hits a contested fadeaway jumper.",1.0,"Right of the free-throw line, inside the arc"
+172.1,assist,,Player #30 (Stephen Curry) passes the ball from the top of the key to player #15 (Austin Reaves) on the left wing for an open shot.,1.0,Top of the key
+173.3,3pt_shot,made,Player #15 (Austin Reaves) catches the pass on the left wing and makes a three-point shot.,1.0,"Left wing, beyond the three-point arc"
+185.0,3pt_shot,made,The player in the white Lakers #77 jersey (Luka Dončić) takes one dribble at the top of the key and successfully makes a three-point shot.,1.0,Top of the key
+195.0,2pt_shot,made,The player in the white Lakers #77 jersey (Luka Dončić) drives from the right wing into the paint and scores with a running layup.,1.0,Right side of the paint
+206.0,defensive action,,"A Timberwolves player strips the ball from the player in the Lakers #30 jersey (Julius Randle) as he drives along the right baseline, causing the ball to go out of bounds for a Lakers turnover.",0.9,Right baseline

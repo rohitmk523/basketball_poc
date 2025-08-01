@@ -1,0 +1,224 @@
+{
+  "video_info": {
+    "duration": 130.9,
+    "fps": 60.0,
+    "size": [
+      1280,
+      720
+    ],
+    "filename": "sample_baseketball_video.mp4"
+  },
+  "processing_summary": {
+    "total_events_detected": 17,
+    "processing_timestamp": "2025-07-31T22:21:32.671965",
+    "event_types_found": [
+      "steal",
+      "shot attempts",
+      "block",
+      "assist",
+      "2pt_shot"
+    ]
+  },
+  "game_statistics": {
+    "total_2pt_attempts": 6,
+    "total_2pt_made": 6,
+    "total_3pt_attempts": 0,
+    "total_3pt_made": 0,
+    "total_assists": 2,
+    "total_steals": 2,
+    "total_blocks": 2
+  },
+  "shooting_analysis": {
+    "2pt_shooting": {
+      "percentage": 100.0,
+      "made": 6,
+      "attempts": 6
+    },
+    "3pt_shooting": {
+      "percentage": 0.0,
+      "made": 0,
+      "attempts": 0
+    },
+    "overall_fg_percentage": 100.0
+  },
+  "defensive_stats": {
+    "steals": 2,
+    "blocks": 2,
+    "total_defensive_actions": 4
+  },
+  "playmaking": {
+    "assists": 2
+  },
+  "detailed_events": [
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 1.0,
+      "duration": 1.0,
+      "description": "LeBron James (#23 for the Lakers) drives from the right wing and scores a layup to tie the game at 80-80.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Right side of the paint",
+      "segment_id": 0
+    },
+    {
+      "event_type": "steal",
+      "timestamp": 7.0,
+      "duration": 1.0,
+      "description": "A pass from a Denver Nuggets player is deflected, and LeBron James (#23) secures the loose ball to initiate a fast break.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "Top of the key (defensive end)",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 10.0,
+      "duration": 1.0,
+      "description": "After securing a steal, LeBron James dribbles the length of the court and finishes with a powerful one-handed dunk on the fast break.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 15.0,
+      "duration": 1.0,
+      "description": "With the shot clock expiring, LeBron James (#23) makes a contested fadeaway jumper from the top of the key.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Top of the key",
+      "segment_id": 0
+    },
+    {
+      "event_type": "block",
+      "timestamp": 25.0,
+      "duration": 1.0,
+      "description": "A Houston Rockets player drives for a layup, and LeBron James (#6) performs a chase-down block, pinning the ball against the backboard.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "At the rim",
+      "segment_id": 0
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 30.0,
+      "duration": 1.0,
+      "description": "LeBron James catches a pass in the paint and performs a powerful two-handed dunk over a defender.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint",
+      "segment_id": 1
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 34.0,
+      "duration": 1.0,
+      "description": "LeBron James drives into the paint from the left side and executes a strong one-handed dunk.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint",
+      "segment_id": 1
+    },
+    {
+      "event_type": "block",
+      "timestamp": 42.0,
+      "duration": 1.0,
+      "description": "On a fast break, a Miami Heat player attempts a dunk, but LeBron James chases him down from behind and blocks the shot against the backboard.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "At the rim",
+      "segment_id": 1
+    },
+    {
+      "event_type": "steal",
+      "timestamp": 49.0,
+      "duration": 1.0,
+      "description": "A Charlotte Hornets player loses control of the ball while dribbling, and Dennis Schr\u00f6der of the Lakers pokes it away from behind to start a fast break.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "Near the half-court line",
+      "segment_id": 1
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 51.0,
+      "duration": 1.0,
+      "description": "Following his steal, Dennis Schr\u00f6der throws a pass ahead to LeBron James, who is running towards the basket. The pass leads directly to a score.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "Pass from the top of the key",
+      "segment_id": 1
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 53.0,
+      "duration": 1.0,
+      "description": "LeBron James catches the alley-oop pass from Dennis Schr\u00f6der on the fast break and finishes with a reverse dunk.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint",
+      "segment_id": 1
+    },
+    {
+      "event_type": "shot attempts",
+      "timestamp": 97.0,
+      "duration": 1.0,
+      "description": "LeBron James drives from the top of the key to the right side of the basket and scores a layup.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint",
+      "segment_id": 3
+    },
+    {
+      "event_type": "shot attempts",
+      "timestamp": 105.0,
+      "duration": 1.0,
+      "description": "LeBron James pulls up in transition from well beyond the arc, near the center court logo, and sinks a deep 3-pointer.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Top of the key (deep)",
+      "segment_id": 3
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 110.0,
+      "duration": 1.0,
+      "description": "On a broken play, a Lakers player saves the ball from going out of bounds and passes it to LeBron James on the left wing for an immediate shot.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "Left sideline",
+      "segment_id": 3
+    },
+    {
+      "event_type": "shot attempts",
+      "timestamp": 111.0,
+      "duration": 1.0,
+      "description": "Following a save from a teammate, LeBron James catches the ball on the left wing and immediately shoots and makes a 3-pointer.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Left wing",
+      "segment_id": 3
+    },
+    {
+      "event_type": "shot attempts",
+      "timestamp": 120.5,
+      "duration": 1.0,
+      "description": "A player in a yellow Lakers jersey drives into the paint from the right and makes a contested, off-balance layup with his left hand.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint, right side",
+      "segment_id": 4
+    },
+    {
+      "event_type": "shot attempts",
+      "timestamp": 128.5,
+      "duration": 1.0,
+      "description": "A player in a white Lakers jersey (#23, LeBron James) pulls up for a deep three-point shot from the top of the arc and makes it.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "Top of the three-point arc",
+      "segment_id": 4
+    }
+  ]
+}
