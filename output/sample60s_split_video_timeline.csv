@@ -1,0 +1,23 @@
+timestamp,event_type,outcome,description,confidence,location
+0.1,3pt_shot,missed,A player in a red jersey takes a three-point shot from the top of the key which misses off the backboard and rim.,1.0,top of the key
+1.5,rebound,,Player #7 for the Green Team secures the defensive rebound after the missed three-point shot.,0.9,paint
+8.5,2pt_shot,missed,Player #7 for the Green Team attempts a mid-range jump shot from the right wing which misses.,0.9,mid-range
+10.5,rebound,missed,The Green Team player who got the rebound attempts an immediate putback shot in the paint which is missed.,0.9,paint
+28.2,block,missed,A player for the Red Team attempts a shot in the paint which is blocked by Green Team player #4.,1.0,paint
+32.5,2pt_shot,missed,"On the left court, the player in the red jersey #2 drives to the basket and misses a layup.",0.9,paint
+33.0,rebound,,"On the left court, the player in the green jersey #4 secures the defensive rebound after the missed layup.",0.9,paint
+37.2,3pt_shot,missed,"On the left court, the player in the green jersey #7 attempts a three-point shot from the left wing and misses.",0.9,left wing
+38.3,rebound,,"On the left court, the player in the red jersey #5 grabs the defensive rebound.",0.9,paint
+39.3,3pt_shot,missed,"On the right court, the player in the green jersey #2 misses a three-point shot from the right wing.",0.9,right wing
+40.4,rebound,,"On the right court, the player in the red jersey #5 secures the defensive rebound.",0.9,paint
+41.2,2pt_shot,missed,"On the left court, the player in the red jersey #8 misses a close-range shot in the paint.",0.9,paint
+41.9,rebound,,"On the left court, the player in the green jersey #8 gets the defensive rebound.",0.9,paint
+47.3,3pt_shot,missed,"On the left court, the player in the green jersey #4 misses a three-point shot from the top of the key.",0.9,top of the key
+48.4,rebound,,"On the left court, the player in the red jersey #0 grabs the defensive rebound.",0.9,paint
+50.3,2pt_shot,missed,"On the right court, the player in the red jersey #1 misses a mid-range jump shot from the right elbow.",0.9,mid-range
+51.4,rebound,,"On the right court, the player in the green jersey #4 secures the defensive rebound.",0.9,paint
+51.8,block,,"On the left court, the player in the green jersey #8 blocks a shot attempt from the player in the red jersey #8.",1.0,paint
+53.0,2pt_shot,made,"On the left court, the player in the red jersey #2 makes a putback shot in the paint.",1.0,paint
+54.2,assist,,"On the right court, the player in the green jersey #4 passes to a teammate who immediately scores a three-pointer.",0.8,top of the key
+54.5,3pt_shot,made,"On the right court, the player in the green jersey #2 makes a catch-and-shoot three-pointer from the right wing.",1.0,right wing
+59.2,3pt_shot,missed,"On the left court, the player in the green jersey #4 misses a three-point shot from the top of the key.",0.9,top of the key

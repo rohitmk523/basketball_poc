@@ -1,19 +1,23 @@
 timestamp,event_type,outcome,description,confidence,location
-4.2,assist,,The player in the white #77 jersey drives into the paint and throws a lob pass to his teammate.,1.0,paint
-4.8,2pt_shot,made,The player in the white #11 jersey catches an alley-oop pass and dunks the ball.,1.0,paint
-17.0,2pt_shot,made,The player in the white #77 jersey drives baseline and scores with a short-range floater in the paint.,1.0,paint
-27.2,2pt_shot,made,The player in the white #77 jersey drives into the lane and scores a layup off the backboard.,1.0,paint
-36.5,2pt_shot,made,Luka Doncic drives into the paint and makes a layup.,1.0,Paint
-50.5,3pt_shot,made,Luka Doncic executes a step-back and makes a 3-point shot over Julius Randle.,1.0,Top of the key
-69.2,steal,,A Lakers player pokes the ball away from a dribbling Minnesota Timberwolves player from behind.,1.0,Top of the key
-77.5,3pt_shot,,"Player #17 passes to player #77 at the top of the key, leading to an immediate made 3-point shot.",1.0,Pass from the wing to the top of the key
-95.2,3pt_shot,[n/a],[A player on the right wing passes to #77 at the top of the key for an immediate 3-point shot.],0.7,[top of the key]
-105.5,2pt_shot,[made],[#77 drives into the paint from the right wing and scores a layup.],0.7,[paint]
-116.0,2pt_shot,[missed],[#30 drives into the paint for a layup attempt that is blocked.],0.7,[paint]
-121.5,2pt_shot,missed,Player #28 Rui Hachimura misses a mid-range jump shot.,1.0,mid-range
-125.0,2pt_shot,,Player #3 Anthony Davis passes to Player #77 for a made 3-point shot.,0.9,paint
-125.2,3pt_shot,made,Player #77 makes a deep 3-point shot from the top of the arc.,1.0,top of the arc
-144.0,2pt_shot,made,"Player #77 makes a contested, step-back mid-range jump shot off the backboard.",1.0,mid-range
-154.5,3pt_shot,made,Player #77 makes a step-back 3-point shot from the top of the key.,1.0,Top of the key
-164.8,2pt_shot,made,Player #77 makes a contested fadeaway mid-range shot from near the right elbow.,1.0,Mid-range
-173.5,3pt_shot,made,Player #15 makes a catch-and-shoot 3-pointer from the left wing.,1.0,Left wing
+4.5,2pt_shot,,Player #77 for the Lakers throws a lob pass to Player #11 who dunks the ball for an alley-oop.,1.0,top of the key
+17.5,2pt_shot,made,Player #77 for the Lakers drives into the paint and makes a short jump shot over the defender.,1.0,paint
+27.6,2pt_shot,made,Player #77 for the Lakers drives into the paint and scores with a bank shot layup.,1.0,paint
+37.5,2pt_shot,made,Luka Dončić (#77) for the Lakers drives into the paint and scores a layup.,1.0,paint
+51.5,3pt_shot,made,Luka Dončić (#77) for the Lakers makes a step-back three-point shot over Julius Randle (#30).,1.0,top of the key
+60.1,2pt_shot,made,A player in a Lakers #77 jersey makes a fadeaway jumper from the right elbow.,0.9,mid-range
+68.8,steal,,A Lakers player pokes the ball away from behind from the Minnesota Timberwolves ball handler near the top of the key.,1.0,top of the key
+77.0,assist,,Player #17 for the Lakers drives towards the paint and passes the ball out to a teammate on the left wing who immediately scores.,0.9,paint
+77.8,3pt_shot,made,A player in a Lakers #77 jersey makes a deep three-point shot from the left wing.,1.0,left wing
+94.5,3pt_shot,made,Player #77 for the Lakers makes a pull-up three-point shot from the right wing.,1.0,right wing three
+105.2,2pt_shot,made,Player #77 for the Lakers drives from the left wing and scores a running layup in the paint.,1.0,paint
+115.8,steal,,"A Timberwolves defender strips the ball from the Lakers player as he drives into the paint, causing a turnover.",0.9,paint
+121.5,2pt_shot,missed,Player #28 for the Lakers misses a mid-range jump shot from the right elbow.,0.9,mid-range
+122.8,rebound,,Player #2 for the Lakers grabs the offensive rebound near the basket.,1.0,paint
+123.5,assist,,"Player #2 for the Lakers passes the ball out to Player #77, leading to an immediate made three-pointer.",0.9,paint
+125.8,3pt_shot,made,Player #77 for the Lakers makes a catch-and-shoot three-point shot from the top of the arc.,1.0,top of the arc
+143.8,2pt_shot,made,Player #77 for the Lakers makes a pull-back jump shot from mid-range over a defender.,1.0,mid-range
+303.0,assist,,Player #23 for the Lakers passes to teammate #77 who immediately scores a three-point basket.,0.9,top of the key
+304.5,3pt_shot,made,Player #77 for the Lakers makes a three-point shot from the left wing to cut the lead to one point.,1.0,left wing three
+313.5,2pt_shot,missed,Player #5 for the Timberwolves misses a driving floater in the paint.,1.0,paint
+314.5,rebound,,Player #23 for the Lakers secures the defensive rebound.,1.0,paint
+321.0,2pt_shot,made,Player #23 for the Lakers makes a contested driving layup to take the lead.,1.0,paint

@@ -7,61 +7,62 @@
     "filename": "sample_basketball_video_3.mp4"
   },
   "processing_summary": {
-    "total_events_detected": 18,
-    "processing_timestamp": "2025-08-02T01:32:44.376254",
+    "total_events_detected": 22,
+    "processing_timestamp": "2025-08-05T17:27:50.000291",
     "event_types_found": [
-      "steal",
       "3pt_shot",
+      "rebound",
+      "steal",
       "2pt_shot",
       "assist"
     ]
   },
   "game_statistics": {
     "total_2pt_attempts": 10,
-    "total_2pt_made": 6,
-    "total_3pt_attempts": 6,
-    "total_3pt_made": 4,
-    "total_assists": 1,
-    "total_steals": 1,
+    "total_2pt_made": 7,
+    "total_3pt_attempts": 5,
+    "total_3pt_made": 5,
+    "total_assists": 3,
+    "total_steals": 2,
     "total_blocks": 0
   },
   "shooting_analysis": {
     "2pt_shooting": {
-      "percentage": 60.0,
-      "made": 6,
+      "percentage": 70.0,
+      "made": 7,
       "attempts": 10
     },
     "3pt_shooting": {
-      "percentage": 66.66666666666666,
-      "made": 4,
-      "attempts": 6
+      "percentage": 100.0,
+      "made": 5,
+      "attempts": 5
     },
-    "overall_fg_percentage": 62.5
+    "overall_fg_percentage": 80.0
   },
   "defensive_stats": {
-    "steals": 1,
+    "steals": 2,
     "blocks": 0,
-    "total_defensive_actions": 1
+    "total_defensive_actions": 2
   },
   "playmaking": {
-    "assists": 1
+    "assists": 3
   },
   "detailed_events": [
     {
-      "event_type": "assist",
-      "timestamp": 4.2,
+      "event_type": "2pt_shot",
+      "timestamp": 4.5,
       "duration": 1.0,
-      "description": "The player in the white #77 jersey drives into the paint and throws a lob pass to his teammate.",
+      "description": "Player #77 for the Lakers throws a lob pass to Player #11 who dunks the ball for an alley-oop.",
       "confidence": 1.0,
       "outcome": null,
-      "location": "paint",
+      "location": "top of the key",
       "segment_id": 0
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 4.8,
+      "timestamp": 17.5,
       "duration": 1.0,
-      "description": "The player in the white #11 jersey catches an alley-oop pass and dunks the ball.",
+      "description": "Player #77 for the Lakers drives into the paint and makes a short jump shot over the defender.",
       "confidence": 1.0,
       "outcome": "made",
       "location": "paint",
@@ -69,9 +70,9 @@
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 17.0,
+      "timestamp": 27.6,
       "duration": 1.0,
-      "description": "The player in the white #77 jersey drives baseline and scores with a short-range floater in the paint.",
+      "description": "Player #77 for the Lakers drives into the paint and scores with a bank shot layup.",
       "confidence": 1.0,
       "outcome": "made",
       "location": "paint",
@@ -79,99 +80,119 @@
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 27.2,
+      "timestamp": 37.5,
       "duration": 1.0,
-      "description": "The player in the white #77 jersey drives into the lane and scores a layup off the backboard.",
+      "description": "Luka Don\u010di\u0107 (#77) for the Lakers drives into the paint and scores a layup.",
       "confidence": 1.0,
       "outcome": "made",
       "location": "paint",
-      "segment_id": 0
-    },
-    {
-      "event_type": "2pt_shot",
-      "timestamp": 36.5,
-      "duration": 1.0,
-      "description": "Luka Doncic drives into the paint and makes a layup.",
-      "confidence": 1.0,
-      "outcome": "made",
-      "location": "Paint",
       "segment_id": 1
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 50.5,
+      "timestamp": 51.5,
       "duration": 1.0,
-      "description": "Luka Doncic executes a step-back and makes a 3-point shot over Julius Randle.",
+      "description": "Luka Don\u010di\u0107 (#77) for the Lakers makes a step-back three-point shot over Julius Randle (#30).",
       "confidence": 1.0,
       "outcome": "made",
-      "location": "Top of the key",
+      "location": "top of the key",
       "segment_id": 1
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 60.1,
+      "duration": 1.0,
+      "description": "A player in a Lakers #77 jersey makes a fadeaway jumper from the right elbow.",
+      "confidence": 0.9,
+      "outcome": "made",
+      "location": "mid-range",
+      "segment_id": 2
     },
     {
       "event_type": "steal",
-      "timestamp": 69.2,
+      "timestamp": 68.8,
       "duration": 1.0,
-      "description": "A Lakers player pokes the ball away from a dribbling Minnesota Timberwolves player from behind.",
+      "description": "A Lakers player pokes the ball away from behind from the Minnesota Timberwolves ball handler near the top of the key.",
       "confidence": 1.0,
       "outcome": null,
-      "location": "Top of the key",
+      "location": "top of the key",
+      "segment_id": 2
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 77.0,
+      "duration": 1.0,
+      "description": "Player #17 for the Lakers drives towards the paint and passes the ball out to a teammate on the left wing who immediately scores.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "paint",
       "segment_id": 2
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 77.5,
+      "timestamp": 77.8,
       "duration": 1.0,
-      "description": "Player #17 passes to player #77 at the top of the key, leading to an immediate made 3-point shot.",
+      "description": "A player in a Lakers #77 jersey makes a deep three-point shot from the left wing.",
       "confidence": 1.0,
-      "outcome": null,
-      "location": "Pass from the wing to the top of the key",
+      "outcome": "made",
+      "location": "left wing",
       "segment_id": 2
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 95.2,
+      "timestamp": 94.5,
       "duration": 1.0,
-      "description": "[A player on the right wing passes to #77 at the top of the key for an immediate 3-point shot.]",
-      "confidence": 0.7,
-      "outcome": "[n/a]",
-      "location": "[top of the key]",
+      "description": "Player #77 for the Lakers makes a pull-up three-point shot from the right wing.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "right wing three",
       "segment_id": 3
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 105.5,
+      "timestamp": 105.2,
       "duration": 1.0,
-      "description": "[#77 drives into the paint from the right wing and scores a layup.]",
-      "confidence": 0.7,
-      "outcome": "[made]",
-      "location": "[paint]",
+      "description": "Player #77 for the Lakers drives from the left wing and scores a running layup in the paint.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "paint",
       "segment_id": 3
     },
     {
-      "event_type": "2pt_shot",
-      "timestamp": 116.0,
+      "event_type": "steal",
+      "timestamp": 115.8,
       "duration": 1.0,
-      "description": "[#30 drives into the paint for a layup attempt that is blocked.]",
-      "confidence": 0.7,
-      "outcome": "[missed]",
-      "location": "[paint]",
+      "description": "A Timberwolves defender strips the ball from the Lakers player as he drives into the paint, causing a turnover.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "paint",
       "segment_id": 3
     },
     {
       "event_type": "2pt_shot",
       "timestamp": 121.5,
       "duration": 1.0,
-      "description": "Player #28 Rui Hachimura misses a mid-range jump shot.",
-      "confidence": 1.0,
+      "description": "Player #28 for the Lakers misses a mid-range jump shot from the right elbow.",
+      "confidence": 0.9,
       "outcome": "missed",
       "location": "mid-range",
       "segment_id": 4
     },
     {
-      "event_type": "2pt_shot",
-      "timestamp": 125.0,
+      "event_type": "rebound",
+      "timestamp": 122.8,
       "duration": 1.0,
-      "description": "Player #3 Anthony Davis passes to Player #77 for a made 3-point shot.",
+      "description": "Player #2 for the Lakers grabs the offensive rebound near the basket.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "paint",
+      "segment_id": 4
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 123.5,
+      "duration": 1.0,
+      "description": "Player #2 for the Lakers passes the ball out to Player #77, leading to an immediate made three-pointer.",
       "confidence": 0.9,
       "outcome": null,
       "location": "paint",
@@ -179,9 +200,9 @@
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 125.2,
+      "timestamp": 125.8,
       "duration": 1.0,
-      "description": "Player #77 makes a deep 3-point shot from the top of the arc.",
+      "description": "Player #77 for the Lakers makes a catch-and-shoot three-point shot from the top of the arc.",
       "confidence": 1.0,
       "outcome": "made",
       "location": "top of the arc",
@@ -189,42 +210,62 @@
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 144.0,
+      "timestamp": 143.8,
       "duration": 1.0,
-      "description": "Player #77 makes a contested, step-back mid-range jump shot off the backboard.",
+      "description": "Player #77 for the Lakers makes a pull-back jump shot from mid-range over a defender.",
       "confidence": 1.0,
       "outcome": "made",
       "location": "mid-range",
       "segment_id": 4
     },
     {
-      "event_type": "3pt_shot",
-      "timestamp": 154.5,
+      "event_type": "assist",
+      "timestamp": 303.0,
       "duration": 1.0,
-      "description": "Player #77 makes a step-back 3-point shot from the top of the key.",
+      "description": "Player #23 for the Lakers passes to teammate #77 who immediately scores a three-point basket.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "top of the key",
+      "segment_id": 5
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 304.5,
+      "duration": 1.0,
+      "description": "Player #77 for the Lakers makes a three-point shot from the left wing to cut the lead to one point.",
       "confidence": 1.0,
       "outcome": "made",
-      "location": "Top of the key",
+      "location": "left wing three",
       "segment_id": 5
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 164.8,
+      "timestamp": 313.5,
       "duration": 1.0,
-      "description": "Player #77 makes a contested fadeaway mid-range shot from near the right elbow.",
+      "description": "Player #5 for the Timberwolves misses a driving floater in the paint.",
       "confidence": 1.0,
-      "outcome": "made",
-      "location": "Mid-range",
+      "outcome": "missed",
+      "location": "paint",
       "segment_id": 5
     },
     {
-      "event_type": "3pt_shot",
-      "timestamp": 173.5,
+      "event_type": "rebound",
+      "timestamp": 314.5,
       "duration": 1.0,
-      "description": "Player #15 makes a catch-and-shoot 3-pointer from the left wing.",
+      "description": "Player #23 for the Lakers secures the defensive rebound.",
+      "confidence": 1.0,
+      "outcome": null,
+      "location": "paint",
+      "segment_id": 5
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 321.0,
+      "duration": 1.0,
+      "description": "Player #23 for the Lakers makes a contested driving layup to take the lead.",
       "confidence": 1.0,
       "outcome": "made",
-      "location": "Left wing",
+      "location": "paint",
       "segment_id": 5
     }
   ]
