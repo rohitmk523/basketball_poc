@@ -1,1 +1,45 @@
 data
+sample
+
+# Generated output directories
+output/
+tracking_output/
+temp_tracking/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# TrackStudio directory (external dependency)
+trackstudio_server/trackstudio/
+
+# Video files (too large for git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
