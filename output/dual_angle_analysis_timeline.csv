@@ -1,0 +1,14 @@
+timestamp,event_type,outcome,description,confidence,location,side
+0.2,2pt_shot,missed,Left Side Team player in a green jersey misses a layup attempt.,0.9,Left side paint,left
+0.5,3pt_shot,missed,Right Side Team player in a green jersey misses a three-point shot from the top of the key.,0.9,Right side top of key,right
+2.5,steal,,Right Side Team player in a green jersey (number 8) intercepts a pass from the opposing team in red.,0.8,Right side top of key,right
+4.0,3pt_shot,missed,Right Side Team player in a green jersey misses a three-point shot from the right wing.,0.9,Right side right wing,right
+32.5,assist,made,Right Side Team player in a red jersey makes a layup after receiving a pass.,1.0,Right side paint,right
+35.8,3pt_shot,missed,Left Side Team player in a red jersey attempts a three-point shot from the top of the key.,0.9,Left side top of the key,left
+39.6,2pt_shot,missed,Right Side Team player in a red jersey misses a pull-up jumper from the elbow.,0.9,Right side mid-range,right
+43.6,2pt_shot,made,Left Side Team player in a pink jersey drives to the basket and scores a layup.,1.0,Left side paint,left
+47.2,2pt_shot,missed,Right Side Team player in a red jersey misses a layup attempt under the basket.,0.9,Right side paint,right
+50.9,block,,Left Side Team player in a red jersey passes to a teammate under the basket for an immediate score.,0.9,"Left side, near the block",left
+51.3,assist,made,Left Side Team player in a red jersey makes a layup after catching a pass under the hoop.,1.0,Left side paint,left
+54.7,2pt_shot,missed,Right Side Team player in a red jersey misses a driving layup attempt.,0.9,Right side paint,right
+57.7,2pt_shot,missed,Left Side Team player in a red jersey misses a driving layup.,0.9,Left side paint,left

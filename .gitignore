@@ -1,8 +1,6 @@
-data
 sample
 
 # Generated output directories
-output/
 tracking_output/
 temp_tracking/
 
