@@ -7,130 +7,127 @@
     "filename": "stitched_basketball_video.mp4"
   },
   "processing_summary": {
-    "total_events_detected": 13,
-    "processing_timestamp": "2025-08-08T13:19:14.348839",
+    "total_events_detected": 10,
+    "processing_timestamp": "2025-08-08T14:06:03.200870",
     "event_types_found": [
-      "assist",
-      "2pt_shot",
       "3pt_shot",
-      "block",
-      "steal"
+      "2pt_shot"
     ],
     "dual_angle_analysis": true
   },
   "game_statistics": {
     "overall": {
-      "total_2pt_attempts": 6,
-      "total_2pt_made": 1,
-      "total_3pt_attempts": 3,
+      "total_2pt_attempts": 1,
+      "total_2pt_made": 0,
+      "total_3pt_attempts": 9,
       "total_3pt_made": 0,
-      "total_assists": 2,
-      "total_steals": 1,
-      "total_blocks": 1
+      "total_assists": 0,
+      "total_steals": 0,
+      "total_blocks": 0
     },
     "left_side_team": {
       "side": "left",
-      "total_2pt_attempts": 3,
-      "total_2pt_made": 1,
-      "total_3pt_attempts": 1,
+      "total_2pt_attempts": 1,
+      "total_2pt_made": 0,
+      "total_3pt_attempts": 3,
       "total_3pt_made": 0,
-      "total_assists": 1,
+      "total_assists": 0,
       "total_steals": 0,
-      "total_blocks": 1
+      "total_blocks": 0
     },
     "right_side_team": {
       "side": "right",
-      "total_2pt_attempts": 3,
+      "total_2pt_attempts": 0,
       "total_2pt_made": 0,
-      "total_3pt_attempts": 2,
+      "total_3pt_attempts": 5,
       "total_3pt_made": 0,
-      "total_assists": 1,
-      "total_steals": 1,
+      "total_assists": 0,
+      "total_steals": 0,
       "total_blocks": 0
     }
   },
   "shooting_analysis": {
     "overall": {
       "2pt_shooting": {
-        "percentage": 16.666666666666664,
-        "made": 1,
-        "attempts": 6
-      },
-      "3pt_shooting": {
-        "percentage": 0.0,
-        "made": 0,
-        "attempts": 3
-      },
-      "overall_fg_percentage": 11.11111111111111
-    },
-    "left_side_team": {
-      "2pt_shooting": {
-        "percentage": 33.33333333333333,
-        "made": 1,
-        "attempts": 3
-      },
-      "3pt_shooting": {
         "percentage": 0.0,
         "made": 0,
         "attempts": 1
+      },
+      "3pt_shooting": {
+        "percentage": 0.0,
+        "made": 0,
+        "attempts": 9
+      },
+      "overall_fg_percentage": 0.0
+    },
+    "left_side_team": {
+      "2pt_shooting": {
+        "percentage": 0.0,
+        "made": 0,
+        "attempts": 1
+      },
+      "3pt_shooting": {
+        "percentage": 0.0,
+        "made": 0,
+        "attempts": 3
       }
     },
     "right_side_team": {
       "2pt_shooting": {
         "percentage": 0.0,
         "made": 0,
-        "attempts": 3
+        "attempts": 0
       },
       "3pt_shooting": {
         "percentage": 0.0,
         "made": 0,
-        "attempts": 2
+        "attempts": 5
       }
     }
   },
   "defensive_stats": {
     "overall": {
-      "steals": 1,
-      "blocks": 1,
-      "total_defensive_actions": 2
+      "steals": 0,
+      "blocks": 0,
+      "total_defensive_actions": 0
     },
     "left_side_team": {
       "steals": 0,
-      "blocks": 1
+      "blocks": 0
     },
     "right_side_team": {
-      "steals": 1,
+      "steals": 0,
       "blocks": 0
     }
   },
   "playmaking": {
     "overall": {
-      "assists": 2
+      "assists": 0
     },
     "left_side_team": {
-      "assists": 1
+      "assists": 0
     },
     "right_side_team": {
-      "assists": 1
+      "assists": 0
     }
   },
   "detailed_events": [
     {
-      "event_type": "2pt_shot",
-      "timestamp": 0.2,
+      "event_type": "3pt_shot",
+      "timestamp": 0.1,
       "duration": 1.0,
-      "description": "Left Side Team player in a green jersey misses a layup attempt.",
+      "description": "Left Side Team player in a green jersey attempts a three-point shot from the top of the key.",
       "confidence": 0.9,
       "outcome": "missed",
-      "location": "Left side paint",
+      "location": "Left side top of key",
       "segment_id": 0,
       "side": "left"
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 0.5,
+      "timestamp": 4.8,
       "duration": 1.0,
-      "description": "Right Side Team player in a green jersey misses a three-point shot from the top of the key.",
+      "description": "Right Side Team player in a red jersey attempts a three-point shot from the top of the key.",
       "confidence": 0.9,
       "outcome": "missed",
       "location": "Right side top of key",
@@ -138,21 +135,21 @@
       "side": "right"
     },
     {
-      "event_type": "steal",
-      "timestamp": 2.5,
+      "event_type": "3pt_shot",
+      "timestamp": 9.5,
       "duration": 1.0,
-      "description": "Right Side Team player in a green jersey (number 8) intercepts a pass from the opposing team in red.",
-      "confidence": 0.8,
-      "outcome": null,
-      "location": "Right side top of key",
+      "description": "Left Side Team player in a green jersey (#4) attempts a three-point shot from the left wing.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Left side left wing",
       "segment_id": 0,
-      "side": "right"
+      "side": "left"
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 4.0,
+      "timestamp": 14.5,
       "duration": 1.0,
-      "description": "Right Side Team player in a green jersey misses a three-point shot from the right wing.",
+      "description": "Right Side Team player in a green jersey attempts a three-point shot from the right wing.",
       "confidence": 0.9,
       "outcome": "missed",
       "location": "Right side right wing",
@@ -160,103 +157,70 @@
       "side": "right"
     },
     {
-      "event_type": "assist",
-      "timestamp": 32.5,
+      "event_type": "3pt_shot",
+      "timestamp": 17.5,
       "duration": 1.0,
-      "description": "Right Side Team player in a red jersey makes a layup after receiving a pass.",
-      "confidence": 1.0,
-      "outcome": "made",
-      "location": "Right side paint",
-      "segment_id": 1,
+      "description": "Right Side Team player in a red jersey (#8) attempts a three-point shot from the top of the key.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Right side top of key",
+      "segment_id": 0,
       "side": "right"
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 35.8,
+      "timestamp": 21.8,
       "duration": 1.0,
-      "description": "Left Side Team player in a red jersey attempts a three-point shot from the top of the key.",
+      "description": "Right Side Team player in a green jersey (#8) attempts a three-point shot from the right wing.",
       "confidence": 0.9,
       "outcome": "missed",
-      "location": "Left side top of the key",
-      "segment_id": 1,
-      "side": "left"
-    },
-    {
-      "event_type": "2pt_shot",
-      "timestamp": 39.6,
-      "duration": 1.0,
-      "description": "Right Side Team player in a red jersey misses a pull-up jumper from the elbow.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Right side mid-range",
-      "segment_id": 1,
+      "location": "Right side right wing",
+      "segment_id": 0,
       "side": "right"
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 43.6,
+      "timestamp": 24.5,
       "duration": 1.0,
-      "description": "Left Side Team player in a pink jersey drives to the basket and scores a layup.",
-      "confidence": 1.0,
-      "outcome": "made",
-      "location": "Left side paint",
-      "segment_id": 1,
+      "description": "Left Side Team player in a red jersey (#0) attempts a mid-range jumper from the free-throw line.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Left side free-throw line",
+      "segment_id": 0,
       "side": "left"
     },
     {
-      "event_type": "2pt_shot",
-      "timestamp": 47.2,
+      "event_type": "3pt_shot",
+      "timestamp": 24.5,
       "duration": 1.0,
-      "description": "Right Side Team player in a red jersey misses a layup attempt under the basket.",
+      "description": "Right Side Team player in a red jersey (#93) attempts a three-point shot from the right wing.",
       "confidence": 0.9,
       "outcome": "missed",
-      "location": "Right side paint",
-      "segment_id": 1,
+      "location": "Right side right wing",
+      "segment_id": 0,
       "side": "right"
     },
     {
-      "event_type": "block",
-      "timestamp": 50.9,
+      "event_type": "3pt_shot",
+      "timestamp": 28.5,
       "duration": 1.0,
-      "description": "Left Side Team player in a red jersey passes to a teammate under the basket for an immediate score.",
+      "description": "Left Side Team player in a green jersey (#1) attempts a three-point shot from the top of the key.",
       "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Left side top of key",
+      "segment_id": 0,
+      "side": "left"
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 35.0,
+      "duration": 1.0,
+      "description": "Basketball event detected",
+      "confidence": 0.7,
       "outcome": null,
-      "location": "Left side, near the block",
+      "location": "Court area",
       "segment_id": 1,
-      "side": "left"
-    },
-    {
-      "event_type": "assist",
-      "timestamp": 51.3,
-      "duration": 1.0,
-      "description": "Left Side Team player in a red jersey makes a layup after catching a pass under the hoop.",
-      "confidence": 1.0,
-      "outcome": "made",
-      "location": "Left side paint",
-      "segment_id": 1,
-      "side": "left"
-    },
-    {
-      "event_type": "2pt_shot",
-      "timestamp": 54.7,
-      "duration": 1.0,
-      "description": "Right Side Team player in a red jersey misses a driving layup attempt.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Right side paint",
-      "segment_id": 1,
-      "side": "right"
-    },
-    {
-      "event_type": "2pt_shot",
-      "timestamp": 57.7,
-      "duration": 1.0,
-      "description": "Left Side Team player in a red jersey misses a driving layup.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Left side paint",
-      "segment_id": 1,
-      "side": "left"
+      "side": null
     }
   ]
 }
