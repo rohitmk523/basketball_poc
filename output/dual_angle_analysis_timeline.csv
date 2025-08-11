@@ -1,11 +1,33 @@
-timestamp,event_type,outcome,description,confidence,location,side
-0.1,3pt_shot,missed,Left Side Team player in a green jersey attempts a three-point shot from the top of the key.,0.9,Left side top of key,left
-4.8,3pt_shot,missed,Right Side Team player in a red jersey attempts a three-point shot from the top of the key.,0.9,Right side top of key,right
-9.5,3pt_shot,missed,Left Side Team player in a green jersey (#4) attempts a three-point shot from the left wing.,0.9,Left side left wing,left
-14.5,3pt_shot,missed,Right Side Team player in a green jersey attempts a three-point shot from the right wing.,0.9,Right side right wing,right
-17.5,3pt_shot,missed,Right Side Team player in a red jersey (#8) attempts a three-point shot from the top of the key.,0.9,Right side top of key,right
-21.8,3pt_shot,missed,Right Side Team player in a green jersey (#8) attempts a three-point shot from the right wing.,0.9,Right side right wing,right
-24.5,2pt_shot,missed,Left Side Team player in a red jersey (#0) attempts a mid-range jumper from the free-throw line.,0.9,Left side free-throw line,left
-24.5,3pt_shot,missed,Right Side Team player in a red jersey (#93) attempts a three-point shot from the right wing.,0.9,Right side right wing,right
-28.5,3pt_shot,missed,Left Side Team player in a green jersey (#1) attempts a three-point shot from the top of the key.,0.9,Left side top of key,left
-35.0,3pt_shot,,Basketball event detected,0.7,Court area,
+timestamp,event_type,outcome,description,confidence,location,side,team_color,shot_quality,court_zone,distance_ft
+1.5,3pt_shot,missed,A player from the red team receives a pass at the top of the arc and takes an open 3-point shot that misses.,0.8,"Right Court, top of the 3-point line",right,red,open,top_arc,24.0
+6.5,2pt_shot,missed,A player from the red team drives from the right wing into the paint and misses a contested layup against a green team defender.,0.8,"Left Court, paint area",left,red,contested,paint,3.0
+11.5,3pt_shot,missed,"After a drive and kick from the top of the arc, a green team player takes an open 3-point shot from the right corner which misses.",0.9,"Left Court, right corner 3-point line",left,green,open,right_corner,23.0
+13.5,2pt_shot,made,A player from the green team drives to the basket and makes a contested layup over a red team defender.,0.8,"Right Court, paint area",right,green,contested,paint,2.0
+15.5,2pt_shot,made,A player from the red team drives from the left wing and successfully makes a contested layup.,0.8,"Left Court, paint area",left,red,contested,paint,2.0
+17.2,steal,,A red team player applies pressure on the green team's ball handler near half-court and successfully steals the ball.,0.7,"Left Court, near half-court",left,red,,top_arc,
+17.8,2pt_shot,unclear,"Following a pass into the lane, a green team player misses a contested shot from close range.",0.7,"Right Court, paint area",right,green,contested,paint,4.0
+19.0,steal,made,"Following a steal, the red team gets a fast break, resulting in an open, uncontested layup.",0.9,"Left Court, paint area",left,red,open,paint,1.0
+19.5,2pt_shot,made,"The red team gets out on a fast break, and a player scores an open layup in transition.",0.9,"Right Court, paint area",right,red,open,paint,2.0
+36.2,2pt_shot,missed,"On the left court, a player in a red jersey drives from the right wing and attempts a layup. A player from the green team contests the shot, which is missed off the backboard.",0.8,"Left court, right side of the paint",left,red,contested,paint,2.5
+40.1,2pt_shot,made,"On the right court, a player in a green jersey drives from the right wing to the basket and makes an uncontested layup.",0.9,"Right court, right side of the paint",right,green,open,paint,2.0
+46.3,assist,made,"On the left court, a player in a green jersey cuts to the basket, receives a pass, and makes an open layup.",0.9,"Left court, directly under the basket",left,green,open,paint,1.5
+50.0,2pt_shot,made,"On the right court, a player in a red jersey drives from the left wing and scores an open layup.",0.9,"Right court, left side of the paint",left,red,open,paint,2.0
+123.5,3pt_shot,missed,"A player from the Green team catches a pass on the right wing and attempts a 3-point shot. A player from the Red team closes out to contest the shot, which is missed.",0.9,"Right wing, beyond the 3-point line.",right,green,contested,right_wing,24.0
+140.0,block,,"A player in a red jersey (#2) drives into the paint for a layup, but a Green team defender meets him at the rim and blocks the shot attempt.",0.9,"In the paint, directly under the basket.",,green,heavily_contested,paint,
+142.0,assist,made,A player from the Green team catches a pass on a fast break and converts an uncontested layup.,1.0,"In the paint, at the basket.",,green,open,paint,2.0
+182.5,2pt_shot,missed,"Left Court - A player from the red team drives from the top of the arc to the basket and attempts a layup, which is contested by a green team defender and missed.",0.8,"Left Court, paint area",left,red,contested,paint,3.0
+187.6,2pt_shot,missed,Left Court - A player from the green team drives from the left wing and takes a contested pull-up jump shot from the mid-range area. The shot is missed.,0.8,"Left Court, left side of the key",left,green,contested,mid_range_left,10.0
+193.0,2pt_shot,missed,Left Court - A player from the red team drives into the paint and attempts a running shot that is contested by a green team defender. The shot is missed.,0.8,"Left Court, paint area",left,red,contested,paint,4.0
+193.1,2pt_shot,missed,Right Court - A player from the green team drives from the top of the arc into the paint and attempts a contested running shot. The shot is missed.,0.8,"Right Court, paint area",right,green,contested,paint,4.0
+198.1,2pt_shot,missed,Left Court - A player from the green team drives to the basket and attempts a layup that is contested by a red team defender. The shot is missed.,0.8,"Left Court, paint area",left,green,contested,paint,3.0
+199.0,2pt_shot,missed,Right Court - A player from the red team drives hard from the top of the arc to the basket and attempts a contested layup. The shot is missed.,0.8,"Right Court, paint area",right,red,contested,paint,3.0
+203.8,2pt_shot,missed,Left Court - A player from the red team drives from the left wing to the basket and attempts a contested layup. The shot is missed.,0.8,"Left Court, paint area",left,red,contested,paint,3.0
+205.2,2pt_shot,missed,Right Court - A player from the green team drives from the right wing into the paint and attempts a contested running shot. The shot is missed.,0.8,"Right Court, paint area",right,green,contested,paint,4.0
+208.2,2pt_shot,missed,Left Court - A player from the green team drives to the basket and attempts a layup that is contested by a red team defender. The shot is missed.,0.8,"Left Court, paint area",left,green,contested,paint,3.0
+301.8,2pt_shot,missed,A red team player drives from the right wing to the basket and misses a contested layup against a green team defender.,0.9,Right side of the paint,right,red,contested,paint,2.0
+309.8,2pt_shot,missed,A red team player drives from the top of the arc to the right side of the basket and misses a contested layup.,0.9,Right side of the paint,right,red,contested,paint,3.0
+313.5,2pt_shot,missed,A green team player drives baseline from the right wing and misses a contested reverse layup attempt.,0.9,"Under the basket, right baseline",right,green,contested,paint,2.0
+317.8,2pt_shot,missed,A red team player drives hard from the left wing and misses a contested layup at the rim.,0.9,Left side of the paint,left,red,contested,paint,2.0
+321.8,2pt_shot,missed,A green team player drives into the right side of the paint and misses a contested layup attempt.,0.9,Right side of the paint,right,green,contested,paint,3.0
+325.5,2pt_shot,missed,A red team player drives from the left wing and misses a contested layup at the rim.,0.9,Left side of the paint,left,red,contested,paint,2.0
+329.5,2pt_shot,missed,A green team player drives into the right side of the paint and misses a contested layup as the segment ends.,0.9,Right side of the paint,right,green,contested,paint,3.0

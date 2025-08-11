@@ -1,226 +1,677 @@
 {
   "video_info": {
-    "duration": 60.5,
+    "duration": 179.833333,
     "fps": 30.0,
     "width": 3840,
     "height": 1080,
     "filename": "stitched_basketball_video.mp4"
   },
   "processing_summary": {
-    "total_events_detected": 10,
-    "processing_timestamp": "2025-08-08T14:06:03.200870",
+    "total_events_detected": 32,
+    "processing_timestamp": "2025-08-11T16:30:17.716474",
     "event_types_found": [
+      "block",
       "3pt_shot",
-      "2pt_shot"
+      "steal",
+      "2pt_shot",
+      "assist"
     ],
-    "dual_angle_analysis": true
+    "teams_identified": [
+      "red",
+      "green"
+    ],
+    "enhanced_features": [
+      "team_recognition",
+      "shot_quality",
+      "court_zones"
+    ]
   },
   "game_statistics": {
     "overall": {
-      "total_2pt_attempts": 1,
-      "total_2pt_made": 0,
-      "total_3pt_attempts": 9,
-      "total_3pt_made": 0,
-      "total_assists": 0,
-      "total_steals": 0,
-      "total_blocks": 0
-    },
-    "left_side_team": {
-      "side": "left",
-      "total_2pt_attempts": 1,
-      "total_2pt_made": 0,
+      "total_2pt_attempts": 24,
+      "total_2pt_made": 5,
       "total_3pt_attempts": 3,
       "total_3pt_made": 0,
-      "total_assists": 0,
-      "total_steals": 0,
-      "total_blocks": 0
+      "total_assists": 2,
+      "total_steals": 2,
+      "total_blocks": 1
+    }
+  },
+  "team_analysis": {
+    "red_team": {
+      "basic_stats": {
+        "team_color": "red",
+        "total_2pt_attempts": 13,
+        "total_2pt_made": 3,
+        "total_3pt_attempts": 1,
+        "total_3pt_made": 0,
+        "total_assists": 0,
+        "total_steals": 2,
+        "total_blocks": 0,
+        "open_shots_made": 2,
+        "open_shots_attempted": 3,
+        "contested_shots_made": 1,
+        "contested_shots_attempted": 11,
+        "paint_shots_made": 3,
+        "paint_shots_attempted": 13,
+        "three_point_shots_made": 0,
+        "three_point_shots_attempted": 1
+      },
+      "shooting_analysis": {
+        "2pt_shooting": {
+          "percentage": 23.076923076923077,
+          "made": 3,
+          "attempts": 13
+        },
+        "3pt_shooting": {
+          "percentage": 0.0,
+          "made": 0,
+          "attempts": 1
+        },
+        "paint_shooting": {
+          "percentage": 23.076923076923077,
+          "made": 3,
+          "attempts": 13
+        }
+      },
+      "shot_quality_analysis": {
+        "open_shots": {
+          "percentage": 66.66666666666666,
+          "made": 2,
+          "attempts": 3
+        },
+        "contested_shots": {
+          "percentage": 9.090909090909092,
+          "made": 1,
+          "attempts": 11
+        }
+      },
+      "defensive_stats": {
+        "steals": 2,
+        "blocks": 0
+      }
     },
-    "right_side_team": {
-      "side": "right",
-      "total_2pt_attempts": 0,
-      "total_2pt_made": 0,
-      "total_3pt_attempts": 5,
-      "total_3pt_made": 0,
-      "total_assists": 0,
-      "total_steals": 0,
-      "total_blocks": 0
+    "green_team": {
+      "basic_stats": {
+        "team_color": "green",
+        "total_2pt_attempts": 11,
+        "total_2pt_made": 2,
+        "total_3pt_attempts": 2,
+        "total_3pt_made": 0,
+        "total_assists": 2,
+        "total_steals": 0,
+        "total_blocks": 1,
+        "open_shots_made": 1,
+        "open_shots_attempted": 2,
+        "contested_shots_made": 1,
+        "contested_shots_attempted": 11,
+        "paint_shots_made": 2,
+        "paint_shots_attempted": 10,
+        "three_point_shots_made": 0,
+        "three_point_shots_attempted": 2
+      },
+      "shooting_analysis": {
+        "2pt_shooting": {
+          "percentage": 18.181818181818183,
+          "made": 2,
+          "attempts": 11
+        },
+        "3pt_shooting": {
+          "percentage": 0.0,
+          "made": 0,
+          "attempts": 2
+        },
+        "paint_shooting": {
+          "percentage": 20.0,
+          "made": 2,
+          "attempts": 10
+        }
+      },
+      "shot_quality_analysis": {
+        "open_shots": {
+          "percentage": 50.0,
+          "made": 1,
+          "attempts": 2
+        },
+        "contested_shots": {
+          "percentage": 9.090909090909092,
+          "made": 1,
+          "attempts": 11
+        }
+      },
+      "defensive_stats": {
+        "steals": 0,
+        "blocks": 1
+      }
     }
   },
   "shooting_analysis": {
     "overall": {
       "2pt_shooting": {
-        "percentage": 0.0,
-        "made": 0,
-        "attempts": 1
-      },
-      "3pt_shooting": {
-        "percentage": 0.0,
-        "made": 0,
-        "attempts": 9
-      },
-      "overall_fg_percentage": 0.0
-    },
-    "left_side_team": {
-      "2pt_shooting": {
-        "percentage": 0.0,
-        "made": 0,
-        "attempts": 1
+        "percentage": 20.833333333333336,
+        "made": 5,
+        "attempts": 24
       },
       "3pt_shooting": {
         "percentage": 0.0,
         "made": 0,
         "attempts": 3
-      }
-    },
-    "right_side_team": {
-      "2pt_shooting": {
-        "percentage": 0.0,
-        "made": 0,
-        "attempts": 0
       },
-      "3pt_shooting": {
-        "percentage": 0.0,
-        "made": 0,
-        "attempts": 5
-      }
-    }
-  },
-  "defensive_stats": {
-    "overall": {
-      "steals": 0,
-      "blocks": 0,
-      "total_defensive_actions": 0
-    },
-    "left_side_team": {
-      "steals": 0,
-      "blocks": 0
-    },
-    "right_side_team": {
-      "steals": 0,
-      "blocks": 0
-    }
-  },
-  "playmaking": {
-    "overall": {
-      "assists": 0
-    },
-    "left_side_team": {
-      "assists": 0
-    },
-    "right_side_team": {
-      "assists": 0
+      "overall_fg_percentage": 18.51851851851852
     }
   },
   "detailed_events": [
     {
       "event_type": "3pt_shot",
-      "timestamp": 0.1,
+      "timestamp": 1.5,
       "duration": 1.0,
-      "description": "Left Side Team player in a green jersey attempts a three-point shot from the top of the key.",
-      "confidence": 0.9,
+      "description": "A player from the red team receives a pass at the top of the arc and takes an open 3-point shot that misses.",
+      "confidence": 0.8,
       "outcome": "missed",
-      "location": "Left side top of key",
+      "location": "Right Court, top of the 3-point line",
       "segment_id": 0,
-      "side": "left"
-    },
-    {
-      "event_type": "3pt_shot",
-      "timestamp": 4.8,
-      "duration": 1.0,
-      "description": "Right Side Team player in a red jersey attempts a three-point shot from the top of the key.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Right side top of key",
-      "segment_id": 0,
-      "side": "right"
-    },
-    {
-      "event_type": "3pt_shot",
-      "timestamp": 9.5,
-      "duration": 1.0,
-      "description": "Left Side Team player in a green jersey (#4) attempts a three-point shot from the left wing.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Left side left wing",
-      "segment_id": 0,
-      "side": "left"
-    },
-    {
-      "event_type": "3pt_shot",
-      "timestamp": 14.5,
-      "duration": 1.0,
-      "description": "Right Side Team player in a green jersey attempts a three-point shot from the right wing.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Right side right wing",
-      "segment_id": 0,
-      "side": "right"
-    },
-    {
-      "event_type": "3pt_shot",
-      "timestamp": 17.5,
-      "duration": 1.0,
-      "description": "Right Side Team player in a red jersey (#8) attempts a three-point shot from the top of the key.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Right side top of key",
-      "segment_id": 0,
-      "side": "right"
-    },
-    {
-      "event_type": "3pt_shot",
-      "timestamp": 21.8,
-      "duration": 1.0,
-      "description": "Right Side Team player in a green jersey (#8) attempts a three-point shot from the right wing.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Right side right wing",
-      "segment_id": 0,
-      "side": "right"
+      "side": "right",
+      "team_color": "red",
+      "shot_quality": "open",
+      "court_zone": "top_arc",
+      "distance_ft": 24.0,
+      "player_position": null
     },
     {
       "event_type": "2pt_shot",
-      "timestamp": 24.5,
+      "timestamp": 6.5,
       "duration": 1.0,
-      "description": "Left Side Team player in a red jersey (#0) attempts a mid-range jumper from the free-throw line.",
-      "confidence": 0.9,
+      "description": "A player from the red team drives from the right wing into the paint and misses a contested layup against a green team defender.",
+      "confidence": 0.8,
       "outcome": "missed",
-      "location": "Left side free-throw line",
+      "location": "Left Court, paint area",
       "segment_id": 0,
-      "side": "left"
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
     },
     {
       "event_type": "3pt_shot",
-      "timestamp": 24.5,
+      "timestamp": 11.5,
       "duration": 1.0,
-      "description": "Right Side Team player in a red jersey (#93) attempts a three-point shot from the right wing.",
+      "description": "After a drive and kick from the top of the arc, a green team player takes an open 3-point shot from the right corner which misses.",
       "confidence": 0.9,
       "outcome": "missed",
-      "location": "Right side right wing",
+      "location": "Left Court, right corner 3-point line",
       "segment_id": 0,
-      "side": "right"
+      "side": "left",
+      "team_color": "green",
+      "shot_quality": "open",
+      "court_zone": "right_corner",
+      "distance_ft": 23.0,
+      "player_position": null
     },
     {
-      "event_type": "3pt_shot",
-      "timestamp": 28.5,
+      "event_type": "2pt_shot",
+      "timestamp": 13.5,
       "duration": 1.0,
-      "description": "Left Side Team player in a green jersey (#1) attempts a three-point shot from the top of the key.",
-      "confidence": 0.9,
-      "outcome": "missed",
-      "location": "Left side top of key",
+      "description": "A player from the green team drives to the basket and makes a contested layup over a red team defender.",
+      "confidence": 0.8,
+      "outcome": "made",
+      "location": "Right Court, paint area",
       "segment_id": 0,
-      "side": "left"
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
     },
     {
-      "event_type": "3pt_shot",
-      "timestamp": 35.0,
+      "event_type": "2pt_shot",
+      "timestamp": 15.5,
       "duration": 1.0,
-      "description": "Basketball event detected",
+      "description": "A player from the red team drives from the left wing and successfully makes a contested layup.",
+      "confidence": 0.8,
+      "outcome": "made",
+      "location": "Left Court, paint area",
+      "segment_id": 0,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "steal",
+      "timestamp": 17.2,
+      "duration": 1.0,
+      "description": "A red team player applies pressure on the green team's ball handler near half-court and successfully steals the ball.",
       "confidence": 0.7,
       "outcome": null,
-      "location": "Court area",
+      "location": "Left Court, near half-court",
+      "segment_id": 0,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": null,
+      "court_zone": "top_arc",
+      "distance_ft": null,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 17.8,
+      "duration": 1.0,
+      "description": "Following a pass into the lane, a green team player misses a contested shot from close range.",
+      "confidence": 0.7,
+      "outcome": "unclear",
+      "location": "Right Court, paint area",
+      "segment_id": 0,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 4.0,
+      "player_position": null
+    },
+    {
+      "event_type": "steal",
+      "timestamp": 19.0,
+      "duration": 1.0,
+      "description": "Following a steal, the red team gets a fast break, resulting in an open, uncontested layup.",
+      "confidence": 0.9,
+      "outcome": "made",
+      "location": "Left Court, paint area",
+      "segment_id": 0,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "open",
+      "court_zone": "paint",
+      "distance_ft": 1.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 19.5,
+      "duration": 1.0,
+      "description": "The red team gets out on a fast break, and a player scores an open layup in transition.",
+      "confidence": 0.9,
+      "outcome": "made",
+      "location": "Right Court, paint area",
+      "segment_id": 0,
+      "side": "right",
+      "team_color": "red",
+      "shot_quality": "open",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 36.2,
+      "duration": 1.0,
+      "description": "On the left court, a player in a red jersey drives from the right wing and attempts a layup. A player from the green team contests the shot, which is missed off the backboard.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left court, right side of the paint",
       "segment_id": 1,
-      "side": null
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.5,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 40.1,
+      "duration": 1.0,
+      "description": "On the right court, a player in a green jersey drives from the right wing to the basket and makes an uncontested layup.",
+      "confidence": 0.9,
+      "outcome": "made",
+      "location": "Right court, right side of the paint",
+      "segment_id": 1,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "open",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 46.3,
+      "duration": 1.0,
+      "description": "On the left court, a player in a green jersey cuts to the basket, receives a pass, and makes an open layup.",
+      "confidence": 0.9,
+      "outcome": "made",
+      "location": "Left court, directly under the basket",
+      "segment_id": 1,
+      "side": "left",
+      "team_color": "green",
+      "shot_quality": "open",
+      "court_zone": "paint",
+      "distance_ft": 1.5,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 50.0,
+      "duration": 1.0,
+      "description": "On the right court, a player in a red jersey drives from the left wing and scores an open layup.",
+      "confidence": 0.9,
+      "outcome": "made",
+      "location": "Right court, left side of the paint",
+      "segment_id": 1,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "open",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "3pt_shot",
+      "timestamp": 123.5,
+      "duration": 1.0,
+      "description": "A player from the Green team catches a pass on the right wing and attempts a 3-point shot. A player from the Red team closes out to contest the shot, which is missed.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Right wing, beyond the 3-point line.",
+      "segment_id": 4,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "right_wing",
+      "distance_ft": 24.0,
+      "player_position": null
+    },
+    {
+      "event_type": "block",
+      "timestamp": 140.0,
+      "duration": 1.0,
+      "description": "A player in a red jersey (#2) drives into the paint for a layup, but a Green team defender meets him at the rim and blocks the shot attempt.",
+      "confidence": 0.9,
+      "outcome": null,
+      "location": "In the paint, directly under the basket.",
+      "segment_id": 4,
+      "side": null,
+      "team_color": "green",
+      "shot_quality": "heavily_contested",
+      "court_zone": "paint",
+      "distance_ft": null,
+      "player_position": null
+    },
+    {
+      "event_type": "assist",
+      "timestamp": 142.0,
+      "duration": 1.0,
+      "description": "A player from the Green team catches a pass on a fast break and converts an uncontested layup.",
+      "confidence": 1.0,
+      "outcome": "made",
+      "location": "In the paint, at the basket.",
+      "segment_id": 4,
+      "side": null,
+      "team_color": "green",
+      "shot_quality": "open",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 182.5,
+      "duration": 1.0,
+      "description": "Left Court - A player from the red team drives from the top of the arc to the basket and attempts a layup, which is contested by a green team defender and missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left Court, paint area",
+      "segment_id": 3,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 187.6,
+      "duration": 1.0,
+      "description": "Left Court - A player from the green team drives from the left wing and takes a contested pull-up jump shot from the mid-range area. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left Court, left side of the key",
+      "segment_id": 3,
+      "side": "left",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "mid_range_left",
+      "distance_ft": 10.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 193.0,
+      "duration": 1.0,
+      "description": "Left Court - A player from the red team drives into the paint and attempts a running shot that is contested by a green team defender. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left Court, paint area",
+      "segment_id": 3,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 4.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 193.1,
+      "duration": 1.0,
+      "description": "Right Court - A player from the green team drives from the top of the arc into the paint and attempts a contested running shot. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Right Court, paint area",
+      "segment_id": 3,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 4.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 198.1,
+      "duration": 1.0,
+      "description": "Left Court - A player from the green team drives to the basket and attempts a layup that is contested by a red team defender. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left Court, paint area",
+      "segment_id": 3,
+      "side": "left",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 199.0,
+      "duration": 1.0,
+      "description": "Right Court - A player from the red team drives hard from the top of the arc to the basket and attempts a contested layup. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Right Court, paint area",
+      "segment_id": 3,
+      "side": "right",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 203.8,
+      "duration": 1.0,
+      "description": "Left Court - A player from the red team drives from the left wing to the basket and attempts a contested layup. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left Court, paint area",
+      "segment_id": 3,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 205.2,
+      "duration": 1.0,
+      "description": "Right Court - A player from the green team drives from the right wing into the paint and attempts a contested running shot. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Right Court, paint area",
+      "segment_id": 3,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 4.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 208.2,
+      "duration": 1.0,
+      "description": "Left Court - A player from the green team drives to the basket and attempts a layup that is contested by a red team defender. The shot is missed.",
+      "confidence": 0.8,
+      "outcome": "missed",
+      "location": "Left Court, paint area",
+      "segment_id": 3,
+      "side": "left",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 301.8,
+      "duration": 1.0,
+      "description": "A red team player drives from the right wing to the basket and misses a contested layup against a green team defender.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Right side of the paint",
+      "segment_id": 5,
+      "side": "right",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 309.8,
+      "duration": 1.0,
+      "description": "A red team player drives from the top of the arc to the right side of the basket and misses a contested layup.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Right side of the paint",
+      "segment_id": 5,
+      "side": "right",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 313.5,
+      "duration": 1.0,
+      "description": "A green team player drives baseline from the right wing and misses a contested reverse layup attempt.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Under the basket, right baseline",
+      "segment_id": 5,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 317.8,
+      "duration": 1.0,
+      "description": "A red team player drives hard from the left wing and misses a contested layup at the rim.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Left side of the paint",
+      "segment_id": 5,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 321.8,
+      "duration": 1.0,
+      "description": "A green team player drives into the right side of the paint and misses a contested layup attempt.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Right side of the paint",
+      "segment_id": 5,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 325.5,
+      "duration": 1.0,
+      "description": "A red team player drives from the left wing and misses a contested layup at the rim.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Left side of the paint",
+      "segment_id": 5,
+      "side": "left",
+      "team_color": "red",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 2.0,
+      "player_position": null
+    },
+    {
+      "event_type": "2pt_shot",
+      "timestamp": 329.5,
+      "duration": 1.0,
+      "description": "A green team player drives into the right side of the paint and misses a contested layup as the segment ends.",
+      "confidence": 0.9,
+      "outcome": "missed",
+      "location": "Right side of the paint",
+      "segment_id": 5,
+      "side": "right",
+      "team_color": "green",
+      "shot_quality": "contested",
+      "court_zone": "paint",
+      "distance_ft": 3.0,
+      "player_position": null
     }
   ]
 }
